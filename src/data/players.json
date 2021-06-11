@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Bugs Bunny",
+        "per": 24.88924,
+        "imgUrl": "https://sjanlassets.blob.core.windows.net/assets/BugsBunny.png",
+        "model": "https://sjanlassets.blob.core.windows.net/assets/BugsBunny.obj"
+    },
+    {
+        "name": "Daffy Duck",
+        "per": 29.53991,
+        "imgUrl": "https://sjanlassets.blob.core.windows.net/assets/DaffyDuck.png",
+        "model": "https://sjanlassets.blob.core.windows.net/assets/DaffyDuck.obj"
+    },
+    {
+        "name": "Elmer Fudd",
+        "per": 26.90357,
+        "imgUrl": "https://sjanlassets.blob.core.windows.net/assets/ElmerFudd.png",
+        "model": "https://sjanlassets.blob.core.windows.net/assets/ElmerFudd.obj"
+    },
+    {
+        "name": "Foghorn Leghorn",
+        "per": 26.49528,
+        "imgUrl": "https://sjanlassets.blob.core.windows.net/assets/FoghornLeghorn.png",
+        "model": "https://sjanlassets.blob.core.windows.net/assets/FoghornLeghorn.obj"
+    },
+    {
+        "name": "Gossamer",
+        "per": 37.22323,
+        "imgUrl": "https://sjanlassets.blob.core.windows.net/assets/Gossamer.png",
+        "model": "https://sjanlassets.blob.core.windows.net/assets/Gossamer.obj"
+    },
+    {
+        "name": "Granny",
+        "per": 28.09165,
+        "imgUrl": "https://sjanlassets.blob.core.windows.net/assets/Granny.png",
+        "model": "https://sjanlassets.blob.core.windows.net/assets/Granny.obj"
+    },
+    {
+        "name": "Lola Bunny",
+        "per": 28.40206,
+        "imgUrl": "https://sjanlassets.blob.core.windows.net/assets/LolaBunny.png",
+        "model": "https://sjanlassets.blob.core.windows.net/assets/lola.vendor.geom_txext.v76.56.obj"
+    },
+    {
+        "name": "Marvin the Martian",
+        "per": 27.73608,
+        "imgUrl": "https://sjanlassets.blob.core.windows.net/assets/MarvintheMartian.png",
+        "model": "https://sjanlassets.blob.core.windows.net/assets/MarvintheMartian.obj"
+    },
+    {
+        "name": "Penelope",
+        "per": 20.33473,
+        "imgUrl": "https://sjanlassets.blob.core.windows.net/assets/Penelope.png",
+        "model": "https://sjanlassets.blob.core.windows.net/assets/Penelope.obj"
+    },
+    {
+        "name": "Porky Pig",
+        "per": 24.12398,
+        "imgUrl": "https://sjanlassets.blob.core.windows.net/assets/PorkyPig.png",
+        "model": "https://sjanlassets.blob.core.windows.net/assets/PorkyPig.obj"
+    },
+    {
+        "name": "Road Runner",
+        "per": 21.18522,
+        "imgUrl": "https://sjanlassets.blob.core.windows.net/assets/RoadRunner.png",
+        "model": "https://sjanlassets.blob.core.windows.net/assets/RoadRunner.obj"
+    },
+    {
+        "name": "Sylvester",
+        "per": 27.36111,
+        "imgUrl": "https://sjanlassets.blob.core.windows.net/assets/Sylvester.png",
+        "model": "https://sjanlassets.blob.core.windows.net/assets/Sylvester.obj"
+    },
+    {
+        "name": "Tasmanian Devil",
+        "per": 22.91025,
+        "imgUrl": "https://sjanlassets.blob.core.windows.net/assets/TasmanianDevil.png",
+        "model": "https://sjanlassets.blob.core.windows.net/assets/TasmanianDevil.obj"
+    },
+    {
+        "name": "Tweety",
+        "per": 25.73423,
+        "imgUrl": "https://sjanlassets.blob.core.windows.net/assets/Tweety.png",
+        "model": "https://sjanlassets.blob.core.windows.net/assets/Tweety.obj"
+    },
+    {
+        "name": "Wile E. Coyote",
+        "per": 292.25133,
+        "imgUrl": "https://sjanlassets.blob.core.windows.net/assets/WileECoyote.png",
+        "model": "https://sjanlassets.blob.core.windows.net/assets/WileECoyote.obj"
+    },
+    {
+        "name": "July 16",
+        "per": 0,
+        "imgUrl": "https://sjanlassets.blob.core.windows.net/assets/SpaceJamANewLegacyLogo.png",
+        "model": "https://sjanlassets.blob.core.windows.net/assets/YosemiteSam.obj"
+    }
+]
