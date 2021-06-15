@@ -46,8 +46,6 @@ var createScene = async function () {
   const environment = new Environment(scene, engine);
   environment.init();
 
-  //const env = scene.createDefaultEnvironment();
-
   // Create Floor
   var gymFloor = MeshBuilder.CreateGround("ground", { width: 60, height: 60 }, scene);
   gymFloor.position = new Vector3(0, -3.5, 0);
