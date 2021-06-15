@@ -1,28 +1,44 @@
+# _Space Jam: A New Legacy_ BabylonJS Mixed Reality Experience
 
-Install packages <br>
+This repository pairs with the BabylonJS Mixed Reality module that is part of the [Microsoft Learn learning path inspired by the _Space Jam: A New Legacy_ film](https://docs.microsoft.com/learn/paths/optimize-basketball-games-with-machine-learning/).
+
+## Getting Started
+
+There are two options for completing this module:
+1. Write the code from scratch by [creating a repository based on the BabylonJS WebPack template](https://github.com/cassieview/babylonjs-webpack-typescript-starter-project/generate). Simply fill in the form, name your repository space-jam-a-new-legacy-babylonjs.
+2. Create a repository based on this template repository by clicking "Use this template", or [clicking this generate link](https://github.com/microsoft/space-jam-a-new-legacy-babylonjs-template/generate) and filling in the form. Name your repository space-jam-a-new-legacy-babylonjs.
+
+Once you have a repository on your personal GitHub account based on one of the above two template repositories, clone it to your local computer.
+
+The rest of this README will assume you have generated a repository based on this template and clone it to your local computer.
+
+## Running the Starter Code
+
+To make sure you have the code working on your machine, you need to install the packages needed for this project, build the project, and start the project. 
+
+To do this, open the repository folder in Visual Studio Code and open the terminal. 
+
+Then run the following commands:
+
+Install packages  
 `npm install`
 
-Build Project <br>
+Build Project  
 `npm run build`
 
-Run the project <br>
+Run the project  
 `npm start`
 
-Open in VS Code <br>
-`code .`
+If you navigate to [https://localhost:8080](https://localhost:8080) you should see the following empty scene:
+![Screenshot of the browser showing the Space Jam: A New Legacy basic scene](space-jam-scene-no-buttons.png)
 
+Head back to the [Microsoft Learn module]() to continue learning how to build out this project. 
 
-# Project
+To see the completed project, you can switch to the `compelted-code` branch.
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+## Using the CodeTour
 
-As the maintainer of this project, please make a few updates:
-
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+The CodeTour for this project is 
 
 ## Contributing
 
