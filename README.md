@@ -30,15 +30,17 @@ Run the project
 `npm start`
 
 If you navigate to [https://localhost:8080](https://localhost:8080) you should see the following empty scene:
-![Screenshot of the browser showing the Space Jam: A New Legacy basic scene](space-jam-scene-no-buttons.png)
+![Screenshot of the browser showing the Space Jam: A New Legacy basic scene](empty-tune-squad-court.png)
 
-Head back to the [Microsoft Learn module]() to continue learning how to build out this project. 
+Head back to the [Microsoft Learn module](https://docs.microsoft.com/learn/modules/build-mixed-reality-with-babylonjs) to continue learning how to build out this project. 
 
-To see the completed project, you can switch to the `compelted-code` branch.
+To see the completed project, you can switch to the `completed-code` branch.
 
 ## Using the CodeTour
 
-The CodeTour for this project is 
+[CodeTour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour) is a Visual Studio Code extension that guides you through code with further explanation. For this project there are two CodeTours; one on the main branch (where you are filling in the code) and one on the `completed-code` branch (to guide you through the completed code).
+
+To get started, 
 
 ## Contributing
 
@@ -61,3 +63,5 @@ trademarks or logos is subject to and must follow
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
+
+© 2021 WBEI TM & ©2021 WarnerMediaDirect, LLC. All Rights Reserved.
