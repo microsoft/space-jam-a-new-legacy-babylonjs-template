@@ -1,0 +1,42 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "unit3-getting-started",
+  "steps": [
+    {
+      "file": "README.md",
+      "description": "Welcome to the CodeTour!\r\n\r\n[CodeTour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour) is a great way to get acquainted with a new repository and quickly start contributing! This CodeTour pairs with the *Space Jam: A New LEgacy* inspired Microsoft Learn module [Intro to WebXR with BabylonJS](). \r\n\r\nGo to the next step to get started learning about this project.",
+      "line": 39
+    },
+    {
+      "file": "src/index.html",
+      "description": "This is the HTML file for this Mixed Reality experience. This is a very simple HTML file that essentially creates a body that will fill the entire browser window and load in the `index.js` file for interactivity.",
+      "line": 29,
+      "selection": {
+        "start": {
+          "line": 13,
+          "character": 36
+        },
+        "end": {
+          "line": 20,
+          "character": 14
+        }
+      }
+    },
+    {
+      "file": "src/index.ts",
+      "description": "`index.js` starts off with importing all of the packages that we need to create a 3D Mixed Reality experience in the browser. This includes adding in some BabylonJS default textures, like the wood we will use for the floor of the basketball court.",
+      "line": 14
+    },
+    {
+      "file": "src/index.ts",
+      "description": "This next section is what created the canvas where the Mixed Reality experience will live. This canvas will rely on a 3D engine to load in all of the interactable assets.",
+      "line": 29
+    },
+    {
+      "file": "src/index.ts",
+      "description": "The `createScene` function is where a lot of the environment gets created. Go on to the next step to explore this function.",
+      "line": 79
+    }
+  ],
+  "ref": "completed-code"
+}
