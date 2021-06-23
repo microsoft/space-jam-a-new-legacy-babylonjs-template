@@ -1,4 +1,4 @@
- import {
+import {
   Scene,
   HemisphericLight,
   Vector3,
@@ -15,7 +15,6 @@ import { WoodProceduralTexture } from "babylonjs-procedural-textures";
 
 import {Environment} from "./environment"
 
-// Get the canvas DOM element
 var canvas = document.getElementById("renderCanvas") as HTMLCanvasElement;
 
 // Load the 3D engine
@@ -73,20 +72,20 @@ var createScene = async function () {
   gymFloor.material = woodMaterial;
 
   // Add physics that simulates the ground
-  gymFloor.physicsImpostor = new PhysicsImpostor(gymFloor, PhysicsImpostor.SphereImpostor, { mass: 0, restitution: 1 }, scene);
+  gymFloor.physicsImpostor = new PhysicsImpostor(gymFloor, PhysicsImpostor.PlaneImpostor, { mass: 0, restitution: 1 }, scene);
 
   // Create PhotoDome with a .png image and add it to the scene
   var dome = new PhotoDome(
-      "testdome",
-      "https://sjanlassets.blob.core.windows.net/assets/Looney-Court.png",
-      {
-          resolution: 32,
-          size: 100
-      },
-      scene
+    "mydome",
+    "https://sjanlassets.blob.core.windows.net/assets/Looney-Court.png",
+    {
+        resolution: 32,
+        size: 100
+    },
+    scene
   );
 
-  // Create default XR Experience
+  // Create the default XR experience
   const xr = await scene.createDefaultXRExperienceAsync({
     floorMeshes: [gymFloor],
   });

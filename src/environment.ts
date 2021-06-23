@@ -18,10 +18,11 @@ export class Environment {
     private _engine: Engine;
     private _players: Array<Player>;
 
-    // Constructor to tie the environment to the scene and engine
     constructor(scene: Scene, engine: Engine) {
         this._scene = scene;
         this._engine = engine;
+
+        //Import data from JSON
         this._players = require('./data/players.json');
     }
 
@@ -31,7 +32,7 @@ export class Environment {
     }
 
     public createCharacterButtons() {
-        // Create the main 3D UI manager for the button grid
+        // Create the main 3D UI manager for the icon grid
         var mainManager = new GUI.GUI3DManager(this._scene);
 
         // Create a cylindrical panel so that the images wrap around the user
@@ -61,11 +62,11 @@ export class Environment {
         meshPanel.linkToTransformNode(anchor);
         meshPanel.position = new Vector3(6, 0, -1);
 
-        //set player container and add to mesh panel
+        // Set the player container and add it to the mesh panel
         var displayStatsContainer = new GUI.HolographicButton("orientation");
         meshPanel.addControl(displayStatsContainer);
         displayStatsContainer.isVisible = false;
-       
+
         // Create an array of meshes to access later
         var activeMesh: AbstractMesh[] = null;
 
@@ -105,16 +106,16 @@ export class Environment {
     public addLegalLine() {
         const guiMenu = GUI.AdvancedDynamicTexture.CreateFullscreenUI("UI");
         guiMenu.idealHeight = 720;
-
+    
         //Creating the legal text box
         const textRect = new GUI.Rectangle("legalContainer");
         textRect.color = "white";
         guiMenu.addControl(textRect);
-
+    
         //Creating the legal text
         const legal = new GUI.TextBlock("legalText", "© 2021 WBEI TM & ©2021 WarnerMediaDirect, LLC. All Rights Reserved.");
         legal.height = 0.2;
-
+    
         // Positioning the legal text to the bottom center
         legal.verticalAlignment = GUI.Control.VERTICAL_ALIGNMENT_BOTTOM;
         legal.horizontalAlignment = GUI.Control.HORIZONTAL_ALIGNMENT_CENTER;
