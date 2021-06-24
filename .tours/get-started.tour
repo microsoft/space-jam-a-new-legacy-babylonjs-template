@@ -28,11 +28,6 @@
       "line": 28
     },
     {
-      "file": "README.md",
-      "description": "And that's all folks! Make sure to [head back to the Learn module](https://docs.microsoft.com/learn/modules/build-mixed-reality-with-babylonjs/9-knowledge-check) to complete the knowledge check and earn your badge!",
-      "line": 44
-    },
-    {
       "file": "src/data/players.json",
       "description": "Each character is represented in this JSON file with a name, PER, and URL to their image.",
       "line": 6
@@ -106,6 +101,11 @@
       "file": "src/index.ts",
       "description": "Finally, you should always be checking to see if the web page window is being re-sized, and from there adjust the engine and therefore the scene.",
       "line": 123
+    },
+    {
+      "file": "README.md",
+      "description": "And that's all folks! Make sure to [head back to the Learn module](https://docs.microsoft.com/learn/modules/build-mixed-reality-with-babylonjs/9-knowledge-check) to complete the knowledge check and earn your badge!",
+      "line": 44
     }
   ],
   "ref": "completed-code"
