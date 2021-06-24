@@ -40,7 +40,7 @@ To see the completed project, you can switch to the `completed-code` branch.
 
 [CodeTour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour) is a Visual Studio Code extension that guides you through code with further explanation. For this project there are two CodeTours; one on the main branch (where you are filling in the code) and one on the `completed-code` branch (to guide you through the completed code).
 
-To get started, 
+To get started, open the `CODETOUR` tab in the Explorer pane and click play on the "Get Started" tour.
 
 ## Contributing
 

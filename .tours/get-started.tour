@@ -1,0 +1,112 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Get Started",
+  "steps": [
+    {
+      "file": "README.md",
+      "description": "Welcome to the CodeTour for the fourth module in the *Space Jam: A New Legacy* inspired Microsoft Learn learning path! If you are encountering this CodeTour and want to make sure you're following along with the right module, head over to the [Get started with Babylon.js unit](https://docs.microsoft.com/learn/modules/build-mixed-reality-with-babylonjs/get-started-with-babylonjs) in the Build Mixed Reality with Babylon.js module to follow along!",
+      "line": 44
+    },
+    {
+      "file": "src/index.html",
+      "description": "The body of the HTML file (or the body of the webpage) contains only one object: the canvas. This is where the 3D mixed reality experience will be rendered. \r\n\r\nAdditionally, you ensure that the webpage knows about the JavaScript file that contains all of the functions that determine interactions. ",
+      "line": 25
+    },
+    {
+      "file": "src/index.ts",
+      "description": "At this point, you should have imported all of the Babylon.js Mixed Reality libraries that you will need to create a 3D environment based on an image, and integrate physics into the world. \r\n\r\nAdditionally, you should have imported the generic wood flooring from the Babylon.js textures and the custom environment that you created in the Environment.ts file. ",
+      "line": 16
+    },
+    {
+      "file": "src/environment.ts",
+      "description": "This environment contains three important components:\r\n1. A scene\r\n2. An engine\r\n3. Data (in this case, player information)",
+      "line": 20
+    },
+    {
+      "file": "src/environment.ts",
+      "description": "The constructor saves the scene and engine (created in the `index.ts` file) and will point the data to the JSON file containins player names and PER values.",
+      "line": 28
+    },
+    {
+      "file": "README.md",
+      "description": "And that's all folks! Make sure to [head back to the Learn module](https://docs.microsoft.com/learn/modules/build-mixed-reality-with-babylonjs/9-knowledge-check) to complete the knowledge check and earn your badge!",
+      "line": 44
+    },
+    {
+      "file": "src/data/players.json",
+      "description": "Each character is represented in this JSON file with a name, PER, and URL to their image.",
+      "line": 6
+    },
+    {
+      "file": "src/environment.ts",
+      "description": "The `createCharacterButtons()` function (below) will be the primary function to add all of the Tune Squad characters to the 3D environment.",
+      "line": 33
+    },
+    {
+      "file": "src/environment.ts",
+      "description": "The `mainButtonPanel` is like a div in traditional web-development, where you can add components that will remain in the panel. This panel is in 3D space and takes a cylindrical form, which is what will create a rounded effect on the players. \r\n\r\nThis panel is hardcoded for the 16 Tune Squad players with 8 columns and 2 rows.",
+      "line": 54
+    },
+    {
+      "file": "src/environment.ts",
+      "description": "The `meshPanel` is the panel that gets displayed large in the front of the cylindrical panel to show the details of the Tune Squad player that was clicked on.",
+      "line": 64
+    },
+    {
+      "file": "src/environment.ts",
+      "description": "The `displayStatsContainer` will contain the player's stats and be hidden to start.",
+      "line": 69
+    },
+    {
+      "file": "src/environment.ts",
+      "description": "This is activated when the pop-up stat container is clicked (aka selected). It should hide (again) so that all of the players are visible again.",
+      "line": 82
+    },
+    {
+      "file": "src/environment.ts",
+      "description": "This for-loop iterates through all of hte players in the JSON file and adds their name, image, and PER to the `mainButtonPanel` AND to the `displayStatsContainer` for their pop-up.",
+      "line": 105
+    },
+    {
+      "file": "src/environment.ts",
+      "description": "The `addLegalLine()` function simply adds the legal text attributing Warner Bros. to the Tune Squad images used in this project.",
+      "line": 123
+    },
+    {
+      "file": "src/environment.ts",
+      "description": "Finally, this `init()` function is called to create the character buttons and add the legal line to the web page.",
+      "line": 32
+    },
+    {
+      "file": "src/index.ts",
+      "description": "After creating the environment, you need to get access to the HTML canvas that you created in the HTML file so that you can add components to it.",
+      "line": 18
+    },
+    {
+      "file": "src/index.ts",
+      "description": "This section initiates the 3D engine that Babylon.js uses.",
+      "line": 29
+    },
+    {
+      "file": "src/index.ts",
+      "description": "The scene is where a lot of the interesting pieces come together! Here is where you will want to create the \"floor\" and the \"walls\". With that, you also need:\r\n- A camera\r\n- Lights\r\n- Physics\r\n- An environment (the characters)",
+      "line": 31
+    },
+    {
+      "file": "src/index.ts",
+      "description": "Since the project you're creating today is simple, you can use a Babylon.js default engine to render the 3D space.",
+      "line": 106
+    },
+    {
+      "file": "src/index.ts",
+      "description": "Once you have the scene created, you can use the engine to render it.",
+      "line": 118
+    },
+    {
+      "file": "src/index.ts",
+      "description": "Finally, you should always be checking to see if the web page window is being re-sized, and from there adjust the engine and therefore the scene.",
+      "line": 123
+    }
+  ],
+  "ref": "completed-code"
+}
