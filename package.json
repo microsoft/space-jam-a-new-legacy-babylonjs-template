@@ -15,7 +15,7 @@
     "copy-webpack-plugin": "^5.1.1",
     "file-loader": "^6.0.0",
     "webpack": "^4.46.0",
-    "webpack-dev-server": "^3.10.3"
+    "webpack-dev-server": ">=5.2.1"
   },
   "dependencies": {
     "babylonjs": "^4.1.0",
@@ -26,6 +26,7 @@
     "cannon": "^0.6.2",
     "ts-loader": "^7.0.2",
     "typescript": "^3.8.3",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^6.0.1"
+    "webpack-dev-server": ">=5.2.1"
   }
 }
